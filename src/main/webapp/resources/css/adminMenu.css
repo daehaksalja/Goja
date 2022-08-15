@@ -1,126 +1,22 @@
-@charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,800&display=swap");
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 
-:root {
-  --white: white;
-  --black: black;
-}
 
-body {
-  height: 100vh;
-/*   background-image:url(../css/earth.jpg);
-  background-size: cover; */
 
-  background-color: var(--white);
-}
 
-.input-ty1 {
+
+
+
+a{
+	text-decoration: none;
 	
-	background: transparent;
-    font-family: 'Song Myung', serif;
-    width: 250px;
-    margin-top: 2px;
-    height: 26px;
-    border-radius: 10px;
-    border: 1px solid #00ffff;
-    padding: 6px;
-    box-sizing: border-box;
-    color:#00ffff;
-}
-.input-ty1::placeholder{
-	
-	
-    color:#00ffff;
-}
-
-
-.container {
-	background: transparent;
-	margin-left:29.7%;
-  width: 100%;
-  max-width: 800px;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-}
-
-.slide-bar {
-  position: absolute;
-  top: 50%;
-  left: 100px;
-  transform: translateY(-50%) rotateZ(15deg);
-  width: 10px;
-  height: 600px;
-  z-index: 10;
-}
-
-.bar {
-  width: 100%;
-  height: 150px;
-  border-radius: 100px;
-  background-color: black;
-}
-
-.text-block {
-	background: transparent;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: grid;
-  place-items: center;
-  background-color: var(--white);
-}
-.text-block h1 {
-  font-family: "Raleway", sans-serif;
-  font-size: 5rem;
-  font-weight: 800;
-  font-style: italic;
-  letter-spacing: 2px;
-  position: relative;
-  perspective: 500px;
-  transform-style: preserve-3d;
-  color: var(--black);
-}
-.text-block h1::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100px;
-  left: 0;
-  background: radial-gradient(var(--white), transparent 70%);
-  transform: translateY(100px) rotateX(-60deg);
-  opacity: 0.3;
-}
-
-#textone {
-  z-index: 6;
-  clip-path: polygon(0 0, 18% 0, 8% 100%, 0% 100%);
-}
-#texttwo {
-  z-index: 4;
-  clip-path: polygon(0 0, 91% 0, 81% 100%, 0% 100%);
-}
-
-.changeBtn{
-	 border: none; 
-    background: transparent;
-}
-button:hover {
-  opacity: 1;
 }
 
 
 
 
 
-.neon_effect p {
+/* .neon_effect p {
   text-align: center;
   font-size: 1em;
   margin: 20px;
@@ -162,103 +58,27 @@ button:hover {
 
 
 
-.neon_effect .p1:first-child{
+ .neon_effect .p1:first-child{
   color: #fff;
   font-family: Abril Fatface;
   animation: neon7 1.5s ease-in-out infinite alternate;
-}
-
-.neon_effect .mainText:first-child{
-  color: #fff;
-  animation: neon3 50s ease-in-out infinite alternate;}
-
-.neon_effect .mainText2:first-child{
-  color: #fff;
-  animation: neon3 50s ease-in-out infinite alternate;}
-/* 메인 */
+} */
 
 
- .userText{
-	display: flex;
-	margin-top:100px;
-	margin-left: 38%;
-	width: 400px;
-	text-align: center;
-	
-}
-.userText2{
-	height:140px;
-		display: flex;
-	margin-top:-145px;
-	margin-left: 50.5%;
-	width: 400px;
-	
-	
-} 
-
-.neon_effect .userText1H2:first-child{
-margin-top:10px;
-	color: white;
-	color: #fff;
-  animation: neon8 50s ease-in-out infinite alternate;
-}
 
 
-.neon_effect .userText2H2:first-child{
 
-	color: white;
-	animation: neon4 50s ease-in-out infinite alternate;
-}
 
-.neon_effect .footer:first-child{
-	position:fixed;
-	
-	color: white;
-	
-}
 
-/* 홈으로가기 버튼 */
-.homeGoBtn{
-	
-	font-size:medium;
-	text-decoration: none;
-}
-.neon_effect .exitBtnBox:first-child{
-	
-	margin-top:50px;
-	margin-left:43.5%;
-	position:fixed;
-	width: 250px;
-	 color: white;
- font-family: 'Song Myung', serif;
-  font-weight: bold;
-  font-size:2em;
-}
-.neon_effect .exitBtn:first-child{
-  color: #fff;
- font-family: 'Song Myung', serif;
-  font-weight: bold;
-  font-size:2em;
-  animation: neon9 500s ease-in-out infinite alternate;
-}
 
   
 
 
 
-.neon_effect .pWhite:first-child{
-	margin-left:33px;
- color: #fff;
-   animation: neon1 1000s ease-in-out infinite alternate;}
 
 
 
-spaceShip
-.neon_effect .pBlue:first-child{
-	 font-family: Comfortaa;
-  color: #fff;
-   animation: neon2 1.5s ease-in-out infinite alternate;
-}
+
 @keyframes neon1 {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff;
@@ -385,13 +205,29 @@ spaceShip
   }
 } */
 
-
+.neon_effect .pWhite:first-child{
+	margin-top:14px;
+ color: #fff;
+   animation: neon1 1000s ease-in-out infinite alternate;}
+   
+   
+   .neon_effect .btnText:first-child{
+	margin-top:16px;
+ color:#ffffff;
+  }
 /* 무지개 버튼 네온사인 */
 .neon_effect .pGold:first-child{
+	
 	margin-top:11px;
   color: #fff;
   animation: neon3 50s ease-in-out infinite alternate;}
- 
+ .neon_effect .mainText:first-child{
+ display:flex;
+ width:420px;
+ margin-left:40.5%;
+	margin-top:350px;
+  color: #fff;
+  animation: neon3 50s ease-in-out infinite alternate;}
 
 /*무지개버튼*/
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
@@ -402,11 +238,29 @@ spaceShip
   --s-2:   #00a1ff ;
   --s-3:  #00c0ff;
   --s-4: #00ffff;
+
   /* 저기빈칸은 컬러들어가는곳 */
 }
 .mainBtn{
-	margin-left: 39%;
-	margin-top: 70px;
+	display:flex;
+	margin-left:6.8%;
+	margin-top:440px;
+	background-color: transparent;
+	border-color: transparent;
+}
+.mainBtn2{
+	display:flex;
+	margin-Left: 38.5%;
+	margin-top:-76px; 
+	background-color: transparent;
+	border-color: transparent;
+}
+.mainBtn3{
+	display:flex;
+	margin-left: 70%;
+	margin-top:-76px;
+	background-color: transparent;
+	border-color: transparent;
 }
 
 /* 로그인버튼 크기조작은 back으로 */
@@ -424,8 +278,8 @@ spaceShip
 }
 
 .btn {
-	padding-top:4px;
-	font-family: 'Song Myung', serif;
+	padding-top:0px;
+	font-family:sans-serif;
 	width: 100%;
 	height:  100%;
   position: relative;
@@ -433,8 +287,7 @@ spaceShip
   overflow: hidden;
   cursor: pointer;
   text-transform: uppercase;
-  background: url(https://api.thumbr.io/whitenoise-361x370.png?background=00000000&noise=000000f&density=50&opacity=40) repeat top left/1.25em,
-   url(https://www.transparenttextures.com/patterns/green-dust-and-scratches.png) no-repeat center/100%;
+  background: url(https://api.thumbr.io/whitenoise-361x370.png?background=00000000&noise=000000f&density=50&opacity=40) repeat top left/1.25em, url(https://www.transparenttextures.com/patterns/green-dust-and-scratches.png) no-repeat center/100%;
   /* font-family: "Space Mono", monospace; */
   font-weight: bold;
   text-align: center;
@@ -463,8 +316,7 @@ spaceShip
   left: 0;
   z-index: 1;
   border-radius: inherit;
-  background: linear-gradient(120deg, transparent 10%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9), transparent 20%, transparent 30%, white,
-   rgba(255, 255, 255, 0.75), transparent 70%, transparent, white, rgba(255, 255, 255, 0.75), transparent);
+  background: linear-gradient(120deg, transparent 10%, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.9), transparent 20%, transparent 30%, white, rgba(255, 255, 255, 0.75), transparent 70%, transparent, white, rgba(255, 255, 255, 0.75), transparent);
   mix-blend-mode: overlay;
   opacity: 0.9;
   transform: translate3d(-50%, 0, 0);
@@ -493,8 +345,7 @@ spaceShip
   left: -5%;
   height: 300%;
   width: 200%;
-  background: radial-gradient(6% 10% at 77% 20%, var(--s-1) 5%, var(--s-2) 60%, var(--s-2) 65%, var(--s-3) 80%, var(--s-3) 70%, transparent 95%), radial-gradient(25% 69% at 40% 10%,
-   var(--s-1) 40%, var(--s-2) 60%, var(--s-2) 65%, var(--s-3) 80%, var(--s-3) 90%, transparent), radial-gradient(20% 55% at -2% 10%, var(--s-1) 50%, var(--s-2) 70%, var(--s-3) 85%, transparent), radial-gradient(12% 19% at 31% 98%, var(--s-1) 30%, var(--s-2) 60%, var(--s-2) 65%, var(--s-3) 80%, var(--s-3) 0%, transparent), radial-gradient(18% 19% at 0 94%, var(--s-1), var(--s-2) 60%, var(--s-2) 55%, var(--s-3) 70%, var(--s-3) 75%, var(--s-4), transparent), radial-gradient(30% 43% at 73% 83%, var(--s-1) 55%, var(--s-2) 70%, var(--s-2) 65%, var(--s-3), transparent), radial-gradient(40% 50% at 20% 20%, var(--s-3) 20%, var(--s-4), transparent), radial-gradient(40% 65% at 40% 25%, var(--s-3) 50%, var(--s-4), var(--s-1) 80%, transparent 100%), radial-gradient(70% 70% at 110% 85%, var(--s-3), var(--s-4) 90%, transparent), radial-gradient(30% 23% at 5% 65%, var(--s-4), var(--s-1) 40%, var(--s-1) 40%, var(--s-4) 65%, var(--s-4) 70%, var(--s-1), transparent), radial-gradient(100% 100% at 70% 20%, var(--s-3), var(--s-4));
+  background: radial-gradient(6% 10% at 77% 20%, var(--s-1) 5%, var(--s-2) 60%, var(--s-2) 65%, var(--s-3) 80%, var(--s-3) 70%, transparent 95%), radial-gradient(25% 69% at 40% 10%, var(--s-1) 40%, var(--s-2) 60%, var(--s-2) 65%, var(--s-3) 80%, var(--s-3) 90%, transparent), radial-gradient(20% 55% at -2% 10%, var(--s-1) 50%, var(--s-2) 70%, var(--s-3) 85%, transparent), radial-gradient(12% 19% at 31% 98%, var(--s-1) 30%, var(--s-2) 60%, var(--s-2) 65%, var(--s-3) 80%, var(--s-3) 0%, transparent), radial-gradient(18% 19% at 0 94%, var(--s-1), var(--s-2) 60%, var(--s-2) 55%, var(--s-3) 70%, var(--s-3) 75%, var(--s-4), transparent), radial-gradient(30% 43% at 73% 83%, var(--s-1) 55%, var(--s-2) 70%, var(--s-2) 65%, var(--s-3), transparent), radial-gradient(40% 50% at 20% 20%, var(--s-3) 20%, var(--s-4), transparent), radial-gradient(40% 65% at 40% 25%, var(--s-3) 50%, var(--s-4), var(--s-1) 80%, transparent 100%), radial-gradient(70% 70% at 110% 85%, var(--s-3), var(--s-4) 90%, transparent), radial-gradient(30% 23% at 5% 65%, var(--s-4), var(--s-1) 40%, var(--s-1) 40%, var(--s-4) 65%, var(--s-4) 70%, var(--s-1), transparent), radial-gradient(100% 100% at 70% 20%, var(--s-3), var(--s-4));
   background-size: 200% 200%;
   background-position: 0% 50%;
 }
@@ -505,5 +356,3 @@ spaceShip
 .btn--1:before {
   filter: url("data:image/svg+xml;utf8,\a<svg xmlns='http://www.w3.org/2000/svg' version='1.1'>\a<defs>\a<filter id='filter' x='-20%' y='-20%' width='140%' height='140%' filterUnits='objectBoundingBox' primitiveUnits='userSpaceOnUse' color-interpolation-filters='linearRGB'>\a<feTurbulence type='turbulence' baseFrequency='0.04 0.03' numOctaves='12' seed='27' stitchTiles='stitch' x='0%' y='0%' width='100%' height='100%' result='turbulence'/>\a<feDisplacementMap in='SourceGraphic' in2='turbulence' scale='15' xChannelSelector='R' yChannelSelector='B' x='0%' y='0%' width='100%' height='100%' result='displacementMap2'/></filter>\a</defs>\a</svg>\a#filter\a") contrast(1.3);
 }
-
-
